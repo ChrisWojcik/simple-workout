@@ -2,13 +2,13 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/main.css">
@@ -19,7 +19,29 @@
         <![endif]-->
     </head>
     <body>
-
+        <div id="main">
+            <section id="exercise-library">
+                <header class="section-header clearfix">
+                    <h1 class="section-title">Exercise Library</h1>
+                    <button type="button" id="add-exercise" class="add-new-btn btn btn-primary btn-lg"><span class="glyphicon glyphicon-plus-sign"></span> New Exercise</button>
+                </header>
+                
+                <!--<h2>Add Exercise</h2>
+                <form id="addExercise" action="#">
+                    <div>
+                        <label for="addExercise-name">Name:</label>
+                        <input name="addExercise-name" id="addExercise-name" type="text" />
+                        <label for="addExercise-bodyPart">Target Body Part:</label>
+                        <input name="addExercise-bodyPart" id="addExercise-bodyPart" type="text" />
+                        <label for="addExercise-equipmentNeeded">Equipment Needed:</label>
+                        <input name="addExercise-equipmentNeeded" id="addExercise-equipmentNeeded" type="text" />
+                        <input name="addExercise-submit" id="addExercise-submit" value="Save" type="submit" />
+                    </div>
+                </form>-->
+                <ul id="exercise-list" class="list-group">
+                </ul>
+            </section>
+        </div>
         <script data-main="js/main" src="js/libs/require.js"></script>
     </body>
 </html>

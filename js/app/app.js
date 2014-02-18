@@ -1,10 +1,10 @@
 define([
-	'jquery'
-], function($) {
+	'app/views/app'
+], function(AppView) {
 	'use strict';
 
 	function init() {
-		console.log('init');
+		var appView = new AppView();
 	}
 
 	return {
