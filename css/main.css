@@ -35,6 +35,11 @@
 	margin-top: -11px;
 }
 
+.exercise-item {
+	float: left;
+	width: 100%;
+}
+
 .list-item-info    { 
 	float: left; 
 	width: 90%; 

@@ -8,7 +8,7 @@ define([
 
 	var ExerciseLibraryItemView = Backbone.View.extend({
 		tagName: 'li',
-		className: 'list-group-item exercise-item clearfix',
+		className: 'list-group-item exercise-item',
 		template: Templates.ExerciseLibraryItem,
 
 		events: {
